@@ -8,7 +8,6 @@ const CountryDetails = () => {
     const country=countrys.find((c)=>c.id===countryId)
   return (
     <div>
-      <h4>Gitbdika</h4>
 <h2>{country.name}</h2>
 <h2>{country.id}</h2>
 <img src={country.image}
@@ -16,6 +15,8 @@ style={{width:"150px",height:"150px",objectFit:"cover",borderRadius:"50%"}}
 />
 <div>
 <button onClick={()=>navigate(-1)}>GoBack</button>
+<button onClick={()=>navigate("/")}>GoHome</button>
+
 </div>
     </div>
   )
