@@ -12,7 +12,7 @@ const CountryDetails = () => {
 <h2>{country.name}</h2>
 <h2>{country.id}</h2>
 <img src={country.image}
-style={{width:"150px",height:"150px",objectFit:"cover"}}
+style={{width:"150px",height:"150px",objectFit:"cover",borderRadius:"50%"}}
 />
 <div>
 <button onClick={()=>navigate(-1)}>GoBack</button>
