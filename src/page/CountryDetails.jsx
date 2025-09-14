@@ -15,7 +15,6 @@ style={{width:"150px",height:"150px",objectFit:"cover",borderRadius:"50%"}}
 />
 <div>
 <button onClick={()=>navigate(-1)}>GoBack</button>
-<button onClick={()=>navigate("/")}>GoHome</button>
 
 </div>
     </div>
